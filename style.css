@@ -86,6 +86,64 @@ p {
     font-size: 1.1rem;
 }
 
+.Signup {
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Signup:hover {
+  opacity: 0.9;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 40px;
+  gap: 40px;
+}
+
+.maintext {
+   max-width: 500px; 
+}
+
+.mainbuttons {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;   
+}
+
+.mainvisual {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.mainvisual img {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.Learnmore {
+  background: transparent;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Learnmore:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
 
 @media (max-width: 768px) {
   ul.navbar {
