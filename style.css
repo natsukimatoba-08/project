@@ -41,10 +41,23 @@ ul.navbar li a {
 }
 
 .ApplyFlow {
-  color: #001eff;
   font-weight: bold;
   font-size: 1.2rem;
-  color: #ffffff;
+  color: #111827; /* Apply color */
+}
+
+.ApplyFlow .flow {
+  color: #001eff; /* Flow color */
+}
+
+.ApplyFlow .flow {
+  background: linear-gradient(90deg, #001eff, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ApplyFlow:hover .flow {
+  color: #000ecb;
 }
 
 ul li a.Signup {
