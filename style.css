@@ -26,20 +26,17 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #ffffff;
-}
 
 .ApplyFlow {
     color: #001eff; 
     font-weight: bold;
 }
 
-.SignUp {
+.Signup {
     color: #ffffff; 
     background-color:#001eff;
     border-radius: 5px;
-    
+
 }
 
 
