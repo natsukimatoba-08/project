@@ -6,39 +6,44 @@ body {
     padding: 40px;
 }
 
-ul {
-  list-style-type: none;
+ul.navbar {
+  list-style: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  padding: 0 24px;
+  display: flex;
+  align-items: center; 
   background-color: #ffffff;
 }
 
-ul li {
-  float: left;
+
+.signup-item {
+  margin-left: auto;
 }
 
-ul li a {
+ul.navbar li a {
   display: block;
-  color:#333333 ;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: #333333;
 }
 
-
 .ApplyFlow {
-    color: #001eff; 
-    font-weight: bold;
+  color: #001eff;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .Signup {
-    color: #ffffff; 
-    background-color:#001eff;
-    border-radius: 5px;
-
+  background-color: #001eff;
+  color: #ffffff;
+  padding: 7px 16px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
+.Signup:hover {
+  background-color: #000ecb;
+}
 
 h1 {
     color: #4f46e5;
@@ -49,3 +54,18 @@ p {
     font-size: 1.1rem;
 }
 
+
+@media (max-width: 768px) {
+  ul.navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .signup-item {
+    margin-left: 0;
+  }
+
+  ul.navbar li a {
+    text-align: left;
+  }
+}
