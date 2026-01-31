@@ -61,15 +61,20 @@ ul.navbar li a {
 }
 
 ul li a.Signup {
-  background-color: #001eff;
+  background: linear-gradient(90deg, #001eff, #7c3aed);
   color: #ffffff;
   padding: 7px 16px;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: bold;
+  transition: background 0.3s ease;
 }
 
-.Signup:hover {
-  background-color: #000ecb;
+ul li a.Signup:hover {
+  background: linear-gradient(90deg, #000ecb, #6d28d9);
+}
+
+.signup-item{
+  color: #000ecb;
 }
 
 h1 {
