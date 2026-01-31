@@ -109,28 +109,45 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 40px;
+  padding: 50px;
   gap: 40px;
 }
 
-.maintext {
-   max-width: 500px; 
+
+.maintext h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
-.mainbuttons {
-  margin-top: 24px;
-  display: flex;
-  gap: 16px;   
+.maintext p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
 }
 
-.mainvisual {
-  max-width: 500px;
-  width: 100%;
-  border-radius: 12px;
+.mainbuttons .btn-primary {
+  background-color: #2978f0;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-right: 15px;
+  cursor: pointer;  
+}
+
+.mainbuttons .btn-secondary {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .mainvisual img {
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  width: 500px;  /* you can adjust max width */
+  max-width: 100%;
+  height: auto;
 }
 
 .Learnmore {
