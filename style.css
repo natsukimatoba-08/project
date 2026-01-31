@@ -6,6 +6,43 @@ body {
     padding: 40px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color:#333333 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #ffffff;
+}
+
+.ApplyFlow {
+    color: #001eff; 
+    font-weight: bold;
+}
+
+.SignUp {
+    color: #ffffff; 
+    background-color:#001eff;
+    border-radius: 5px;
+    
+}
+
+
 h1 {
     color: #4f46e5;
     margin-bottom: 10px;
