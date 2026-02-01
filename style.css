@@ -231,6 +231,13 @@ p {
   font-size: 0.95rem;
 }
 
+.visual img {
+  width: 500px;  /* you can adjust max width */
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 @media (max-width: 768px) {
   ul.navbar {
