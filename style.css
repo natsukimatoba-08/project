@@ -47,8 +47,7 @@ ul.navbar li a {
 }
 
 .ApplyFlow .flow {
-  color: #001eff; /* Flow color */
-}
+  color: #1e7f8a
 
 .ApplyFlow .flow {
   background: linear-gradient(90deg, #001eff, #7c3aed);
@@ -57,11 +56,11 @@ ul.navbar li a {
 }
 
 .ApplyFlow:hover .flow {
-  color: #000ecb;
+  color: #1e7f8a
 }
 
 ul li a.Signup {
-  background: linear-gradient(90deg, #001eff, #7c3aed);
+  background: linear-gradient(90deg, #1e7f8a, #2a4ab3);
   color: #ffffff;
   padding: 7px 16px;
   border-radius: 6px;
@@ -70,11 +69,11 @@ ul li a.Signup {
 }
 
 ul li a.Signup:hover {
-  background: linear-gradient(90deg, #000ecb, #6d28d9);
+  background: linear-gradient(90deg, #1e7f8a, #2a4ab3);
 }
 
 .signup-item{
-  color: #000ecb;
+  color: #1e7f8a
 }
 
 body {
@@ -82,7 +81,7 @@ body {
 }
 
 h1 {
-    color: #4f46e5;
+    color: #1e7f8a;
     margin-bottom: 10px;
 }
 
@@ -91,7 +90,7 @@ p {
 }
 
 .Signup {
-  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  background: linear-gradient(90deg, #1e7f8a, #2a4ab3);
   color: #ffffff;
   border: none;
   padding: 12px 24px;
@@ -144,9 +143,9 @@ p {
 }
 
 .mainbuttons .btn-primary {
-  background-color: #2978f0;
+  background-color: #1e7f8a;
   color: white;
-  border: 2px solid #2978f0
+  border: 2px solid #1e7f8a;
 }
 
 .btn-primary:hover {
@@ -172,8 +171,8 @@ p {
 
 .Learnmore {
   background: transparent;
-  color: #2563eb;
-  border: 2px solid #2563eb;
+  color: #1e7f8a;
+  border: 2px solid #1e7f8a;
   padding: 12px 24px;
   border-radius: 8px;
   font-size: 1rem;
@@ -182,7 +181,7 @@ p {
 }
 
 .Learnmore:hover {
-  background-color: #2563eb;
+  background-color: #1e7f8a;
   color: #ffffff;
 }
 
