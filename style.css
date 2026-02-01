@@ -245,6 +245,12 @@ p {
   object-fit: contain;   /* keeps aspect ratio */
 }
 
+.about {
+  background-color: rgb(192, 192, 192);
+  padding: 80px 0;
+}
+
+
 @media (max-width: 768px) {
   ul.navbar {
     flex-direction: column;
