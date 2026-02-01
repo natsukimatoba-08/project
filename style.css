@@ -128,6 +128,7 @@ p {
 .mainbuttons a {
   display: flex;
   gap: 16px;
+  max-width: 420px; 
 }
 
 .btn {
@@ -197,5 +198,13 @@ p {
 
   ul.navbar li a {
     text-align: left;
+  }
+
+  .mainbuttons {
+    flex-direction: column;
+  }
+
+  .mainbuttons a {
+    width: 100%;
   }
 }
