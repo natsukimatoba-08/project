@@ -261,16 +261,22 @@ p {
   gap: 40px;
 }
 
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* controls space between h2 and p */
+}
+
 .about h2 {
    font-size: 2.2rem;   /* same as keyfeatures h2 */
-  margin-bottom: 12px;
+  margin: 0px;
   color: #333;
 }
 
 .about-subtitle {
   font-size: 1rem;       
   max-width: 600px;      
-  margin: 0 auto 60px auto;
+  margin: 0;
   color: #666;
 }
 
