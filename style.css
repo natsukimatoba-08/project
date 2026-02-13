@@ -302,10 +302,11 @@ p {
   flex: 1;
 }
 
-.loginvisual {
-  display: flex;
-  justify-content: center;
+.loginvisual img {
+  height: 400px;  
+  width: auto;
 }
+
 
 .loginvisual img {
   width: 100%;
@@ -365,7 +366,6 @@ p {
   font-size: 0.9rem;
   text-align: center;
 }
-
 
 .signup {
   min-height: 100vh;
