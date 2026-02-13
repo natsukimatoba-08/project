@@ -355,6 +355,25 @@ p {
   height: auto;
 }
 
+.loginvisual img {
+  max-width: 400px; 
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gotosignup {
+  margin-top: 10px; /* smaller space above */
+  margin-bottom: 0; /* remove extra space below */
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.gotosignup a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
 
 .forgot {
   display: block;
