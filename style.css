@@ -355,6 +355,62 @@ p {
 }
 
 
+.signup {
+  min-height: 100vh;
+  background-color: #f3f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container {
+  max-width: 1100px;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+
+.signupform {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.signupform h2 {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.signupform input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.signup button {
+  width: 100%;
+  padding: 12px;
+  background: #6c63ff; 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signupform button:hover {
+  background: #5a52d9;
+}
+
 @media (max-width: 768px) {
   ul.navbar {
     flex-direction: column;
