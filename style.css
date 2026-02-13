@@ -411,6 +411,11 @@ p {
   background: #5a52d9;
 }
 
+.signup-visual img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 768px) {
   ul.navbar {
     flex-direction: column;
