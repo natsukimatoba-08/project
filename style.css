@@ -295,20 +295,24 @@ p {
   display: flex;
   gap: 60px;
   align-items: center;
-  justify-content: space-between;
+}
+
+
+.loginvisual, .loginform {
+  flex: 1;
 }
 
 .loginvisual {
-  flex: 1;
   display: flex;
   justify-content: center;
 }
 
 .loginvisual img {
-  width: 80%;
-  max-width: 480px;  
+  width: 100%;
+  max-width: 450px;   /* match your signup image size exactly */
   height: auto;
 }
+
 
 .loginform {
   background: #fff;
