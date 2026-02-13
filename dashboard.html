@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard - ApplyFlow</title>
+</head>
+<body>
+
+<h1>Welcome to your Dashboard</h1>
+<button id="logoutBtn">Logout</button>
+
+<script>
+  const user = JSON.parse(localStorage.getItem("user"));
+
+  if (!user) {
+    window.location.href = "login.html";
+  }
+
+  document.getElementById("logoutBtn").addEventListener("click", function () {
+    localStorage.removeItem("user");
+    window.location.href = "login.html";
+  });
+</script>
+
+</body>
+</html>
