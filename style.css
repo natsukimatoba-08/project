@@ -298,12 +298,8 @@ p {
 }
 
 
-.loginvisual, .loginform {
-  flex: 1;
-}
-
 .loginvisual img {
-  height: 400px;  
+  height: 420px;  
   width: auto;
 }
 
