@@ -482,6 +482,25 @@ p {
   animation: pulse 2s infinite;
 }
 
+.hero-graphic {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px; /* Increased from 60px to push it away from buttons */
+  padding-bottom: 50px;
+}
+
+.mock-card {
+  background: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.08); /* Indigo tinted shadow */
+  border: 1px solid #f1f5f9;
+  text-align: left;
+  min-width: 220px; /* Gives them a consistent shape */
+  animation: float 4s ease-in-out infinite;
+}
+
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
@@ -512,6 +531,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 40px;
 }
 
 .hero-btn {
