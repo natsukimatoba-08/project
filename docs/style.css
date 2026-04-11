@@ -474,21 +474,57 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  padding: 0 20px;
+  padding: 40px;
+  
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
 .feature-container h2 {
   font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #2d2d2d;
+  position: relative;
+}
+
+.feature-container h2::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background: #6c63ff;
+  display: block;
+  margin-top: 8px;
+  border-radius: 2px;
 }
 
 .feature-container .list {
-  padding-left: 20px;
+  list-style: none;
+  padding: 0;
 }
 
 .feature-container .list li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: #555;
+  position: relative;
+  padding-left: 20px;
 }
+
+.feature-container .list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #6c63ff;
+  font-size: 14px;
+}
+
 
 .feature2 .feature-container {
   flex-direction: row-reverse;
@@ -499,21 +535,22 @@ p {
 .feature3-image img {
   width: 100%;
   max-width: 400px;
+  border-radius: 12px;
 }
 
 .feature1 {
   background-color: #ffffff;
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .feature2 {
-  background-color: #d9d8d8;
-  padding: 80px 0;
+  padding: 100px 0;
+  background: #f0f0ff;
 }
 
 .feature3 {
   background-color: #ffffff;
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 @media (max-width: 768px) {
