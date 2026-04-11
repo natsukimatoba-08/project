@@ -573,15 +573,23 @@ p {
 
 .bonus-card {
   background: white;
-  padding: 25px;
+  padding: 20px;
   border-radius: 12px;
-  font-weight: 500;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
   transition: 0.3s;
 }
 
 .bonus-card:hover {
   transform: translateY(-5px);
+}
+
+.bonus-card span {
+  font-size: 22px;
+  background: #f0f0ff;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .progress {
