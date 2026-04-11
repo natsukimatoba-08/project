@@ -50,11 +50,11 @@ ul.navbar li a {
 .ApplyFlow {
   font-weight: bold;
   font-size: 1.2rem;
-  color: #111827; /* Apply color */
+  color: #111827; 
 }
 
 .ApplyFlow .flow {
-  color: #001eff; /* Flow color */
+  color: #001eff; 
 }
 
 .ApplyFlow .flow {
@@ -471,6 +471,16 @@ p {
 .feature1-subtitle {
   color: #666;
   margin-bottom: 60px;
+}
+
+.feature2 {
+  background-color: #d9d8d8;
+  padding: 80px 0;
+}
+
+.feature3 {
+  background-color: #ffffff;
+  padding: 80px 0;
 }
 
 
