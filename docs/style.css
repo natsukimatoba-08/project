@@ -451,10 +451,35 @@ p {
 }
 
 .herosection {
-  background: radial-gradient(circle at top right, #f0f4ff 0%, #ffffff 100%);
-  padding: 120px 24px; 
+  background: 
+    radial-gradient(at 0% 0%, rgba(79, 70, 229, 0.05) 0, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(124, 58, 237, 0.05) 0, transparent 50%),
+    #ffffff;
+  padding: 100px 24px; 
   text-align: center;
-  border-bottom: 1px solid #eaeaea;
+  position: relative;
+}
+
+.tracker-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 8px 20px;
+  border-radius: 100px;
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.pulse-icon {
+  width: 8px;
+  height: 8px;
+  background: #22c55e; /* Green for "Go" */
+  border-radius: 50%;
+  box-shadow: 0 0 0 rgba(34, 197, 94, 0.4);
+  animation: pulse 2s infinite;
 }
 
 .hero-content {
@@ -463,12 +488,12 @@ p {
 }
 
 .herosection h1 {
-  font-size: 3.5rem; /* Bigger, bolder heading */
-  font-weight: 800;
-  color: #1a1a1a;
-  line-height: 1.1;
-  margin-bottom: 20px;
-  letter-spacing: -0.02em;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #0f172a;
+  line-height: 1;
+  margin-bottom: 24px;
+  animation: fadeInUp 0.8s ease-out;
 }
 
 .herosection h2 {
@@ -490,21 +515,36 @@ p {
 }
 
 .hero-btn {
-  padding: 14px 28px;
-  border-radius: 8px;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn-primary {
   background-color: #4f46e5;
   color: white;
+  box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3);
 }
 
-.btn {
-  padding: 14px 28px;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.2s ease;
+.hero-btn-primary:hover {
+  transform: translateY(-3px);
+  background-color: #4338ca;
+  box-shadow: 0 20px 25px -5px rgba(79, 70, 229, 0.4);
+}
+
+.hero-btn-secondary {
+  background-color: white;
+  color: #4f46e5;
+  border: 2px solid #e2e8f0;
+}
+
+.hero-btn-secondary:hover {
+  border-color: #4f46e5;
+  background-color: #f8fafc;
+  transform: translateY(-3px);
 }
 
 .feature-container {
