@@ -2,50 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to my web portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | ApplyFlow</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-     <ul class="navbar">
-     <li class="brand"><a class="ApplyFlow">🔎Apply<span class="flow">Flow</span></a></li>
-
-       <li class="menu">
-         <a href="index.html">Home</a>
-         <a href="features.html">Features</a>
-         <a href="howitworks.html">How it works</a>
-         <a href="login.html">Login</a>
-       </li>
-
-     <li class="signup-item"><a href="signup.html" class="Signup">Sign up</a></li>
+    <ul class="navbar">
+        <li class="brand"><a class="ApplyFlow" href="index.html">🔎Apply<span class="flow">Flow</span></a></li>
+        <li class="menu">
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="login.html">Login</a>
+        </li>
     </ul>
 
-<section class="signup">
-  <div class="signup-container">
-    
-    <div class="signup-visual">
-      <img src="images/signup.svg" alt="ApplyFlow signup illustration">
-    </div>
+    <section class="signup">
+        <div class="signup-container">
+            <div class="loginvisual">
+                <img src="images/login.svg" alt="Sign up illustration">
+            </div>
 
-    <div class="signupform">
-      <h2>Create your ApplyFlow account</h2>
+            <div class="signupform">
+                <h2>Create Account</h2>
+                <p style="color: #64748b; margin-bottom: 20px;">Join thousands of job seekers today.</p>
+                
+                <form id="signupform">
+                    <input type="text" id="fullname" placeholder="Full Name" required />
+                    <input type="email" id="email" placeholder="Email Address" required />
+                    <input type="password" id="password" placeholder="Create Password" required />
 
-      <form id="signupform">
-        <input type="text" id="fullname" placeholder="Full Name" required />
-        <input type="email" id="email" placeholder="Email" required />
-        <input type="password" id="password" placeholder="Password" required />
-        <input type="password" id="confirm" placeholder="Confirm Password" required />
+                    <button type="submit">Get Started</button>
 
-        <button type="submit">Sign Up</button>
+                    <p class="gotosignup" style="margin-top: 20px; text-align: center; font-size: 0.9rem;">
+                        Already have an account? <a href="login.html" style="color: #4f46e5; text-decoration: none; font-weight: 600;">Log in</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
 
-        <p class="login-link">
-          Already have an account? <a href="login.html">Log in</a>
-        </p>
-      </form>
-    </div>
-
-  </div>
-</section>
-
+    <script src="script.js"></script>
 </body>
 </html>

@@ -2,51 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to my web portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | ApplyFlow</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-     <ul class="navbar">
-     <li class="brand"><a class="ApplyFlow">🔎Apply<span class="flow">Flow</span></a></li>
-
-       <li class="menu">
-         <a href="index.html">Home</a>
-         <a href="features.html">Features</a>
-         <a href="howitworks.html">How it works</a>
-         <a href="login.html">Login</a>
-       </li>
-
-     <li class="signup-item"><a href="signup.html" class="Signup">Sign up</a></li>
+    <ul class="navbar">
+        <li class="brand"><a class="ApplyFlow" href="index.html">🔎Apply<span class="flow">Flow</span></a></li>
+        <li class="menu">
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="login.html">Login</a>
+        </li>
     </ul>
 
-    
-  <section class="login">
-   <div class="login-container">
-     <div class="loginvisual">
-      <img src="images/login.svg" alt="ApplyFlow login illustration">
-     </div>
+    <section class="login">
+        <div class="login-container">
+            <div class="loginvisual">
+                <img src="images/login.svg" alt="ApplyFlow login illustration">
+            </div>
 
-    <div class="loginform">
-      <h2>Log in to ApplyFlow</h2>
-      
-      <form id="loginform">
-        <input type="email" id="email" placeholder="Email" required />
-        <input type="password" id="password" placeholder="Password" required />
+            <div class="loginform">
+                <h2>Welcome Back</h2>
+                <p style="color: #64748b; margin-bottom: 20px;">Log in to manage your applications.</p>
+                
+                <form id="loginform">
+                    <input type="email" id="email" placeholder="Email Address" required />
+                    <input type="password" id="password" placeholder="Password" required />
 
-        <a href="forgetpassword.html" class="forgot">Forgot your password?</a>
+                    <div style="text-align: right; margin-bottom: 15px;">
+                        <a href="forgetpassword.html" class="forgot" style="font-size: 0.85rem; color: #4f46e5; text-decoration: none;">Forgot password?</a>
+                    </div>
 
-        <button type="submit">Log In</button>
+                    <button type="submit">Log In</button>
 
-        <p class="gotosignup">
-          Don’t have an account? <a href="signup.html">Sign up</a>
-        </p>
-      </form>
-    </div>
+                    <p class="gotosignup" style="margin-top: 20px; text-align: center; font-size: 0.9rem;">
+                        Don’t have an account? <a href="signup.html" style="color: #4f46e5; text-decoration: none; font-weight: 600;">Sign up</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
 
-    </div>
-  </section>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
